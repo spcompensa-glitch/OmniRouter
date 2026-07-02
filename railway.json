@@ -4,6 +4,7 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
+    "startCommand": null,
     "healthcheckPath": "/api/v1/models",
     "healthcheckTimeout": 120,
     "restartPolicyType": "ON_FAILURE",
